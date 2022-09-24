@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+body {
+   background-image: linear-gradient(3400deg, #915ee2, rgb(255, 255, 255));
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   min-height: 100vh;
+}
+.container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+.header {
+    color: #a97ffd;
+    font-size: 4rem;
+    background-color: #fefefe;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+}
+.newItems {
+    background-color: rgb(158, 86, 216);
+    padding: 2rem;
+    margin-top: 10px;
+    width: 30%;
+    border-radius: 10px;
+    border-bottom: 3px solid black;
+}
+.list {
+    width: 100%;
+    text-align: left;
+    position: relative;
+    list-style-type: none;
+}
+.things {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    height: 40px;
+    width: 50%;
+    font-size: 1.2rem;
+}
+.click {
+    width: 15%;
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+.add-items button:hover {
+    opacity: 0.8;
+    color: #fff;
+    cursor: pointer;
+}
+.todolist {
+    background: #fff ;
+    margin: 0.5rem;
+    color:rgb(0, 0, 0);
+    font-size: 1.2em;
+    display: flex;
+    border-bottom: 3px solid rgb(194, 193, 193);
+    justify-content: space-between;
+}
+.newTodos {
+    flex: 1;
+}
+.delButton {
+    background-color: rgb(237, 72, 72);
+    width: 3.2em;
+}
+.delButton:hover {
+    cursor: pointer;
+    color: white;
+}
+
